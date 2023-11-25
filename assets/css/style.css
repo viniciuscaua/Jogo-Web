@@ -11,7 +11,7 @@ body {
 }
 
 canvas {
-    background-image: url("assets/background/bg.png");
+    background-image: url("../background/bg.png");
 }
 
 #pontuacao {
@@ -44,11 +44,11 @@ canvas {
     margin-top: 20px;
 }
 
-ul{
+ul {
     list-style-type: none !important;
 }
 
-#title-list{
+#title-list {
     font-size: 1.3em !important;
 }
 
@@ -64,5 +64,5 @@ ul{
     text-align: center;
     padding: 10px;
     position: fixed;
-    bottom: 0; 
+    bottom: 0;
 }

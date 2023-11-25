@@ -78,7 +78,7 @@ initLocalStorage();
 startTimer();
 
 function resetEnemies() {
-    timer=30;
+    timer = 30;
     enemy.setHealth(80);
     enemy2.setHealth(220);
     enemy3.setHealth(400);

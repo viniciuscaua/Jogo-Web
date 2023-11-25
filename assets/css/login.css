@@ -1,17 +1,19 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
 }
-body{
-    background-image: url("assets/background/backgroundLogin.jpeg");
+
+body {
+    background-image: url("../background/backgroundLogin.jpeg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    
+
 }
-#container{
+
+#container {
     width: 450px;
     background-color: #1c1c1c;
     border-radius: 70px 0 70px 0;
@@ -23,7 +25,8 @@ body{
     transform: translateY(50%);
     flex-direction: column;
 }
-#container h2{
+
+#container h2 {
     margin: 2rem 0;
     text-align: center;
     padding-bottom: 2rem;
@@ -31,19 +34,24 @@ body{
     border-bottom: 1px solid #f6f6f9;
     font-size: 2rem;
 }
-#form{
+
+#form {
     margin-bottom: 2rem;
 }
-#form label, input{
+
+#form label,
+input {
     display: block;
     width: 100%;
 }
-#form label{
+
+#form label {
     margin-bottom: 2px;
     color: #f6f6f9;
     font-size: 18px;
 }
-#form input{
+
+#form input {
     padding: 15px;
     outline: none;
     border: 0;
@@ -51,7 +59,8 @@ body{
     font-size: 1rem;
     border-radius: 5px;
 }
-#form button{
+
+#form button {
     width: 100%;
     background: #f6f6f9;
     height: 50px;
@@ -67,15 +76,18 @@ body{
     cursor: pointer;
     text-decoration: none;
     border: none;
-    border-radius: 5px; /* Adicionar bordas arredondadas */
+    border-radius: 5px;
+    /* Adicionar bordas arredondadas */
 }
 
 button a {
-    color: inherit; /* Herdar a cor do texto do botão */
-    text-decoration: none; /* Remover sublinhado do link */
+    color: inherit;
+    /* Herdar a cor do texto do botão */
+    text-decoration: none;
+    /* Remover sublinhado do link */
 }
 
-#form button:hover{
+#form button:hover {
     background-color: black;
     color: white;
 }

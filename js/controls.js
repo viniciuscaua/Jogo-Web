@@ -14,7 +14,7 @@ const keys = {
         hold: false
     },
     f: {
-        pressed:false,
+        pressed: false,
         hold: false
     }
 };
@@ -28,7 +28,7 @@ const sceneLimits = {
 window.addEventListener("keydown", e => {
     let key = e.key;
 
-    switch(key) {
+    switch (key) {
         case "ArrowLeft":
         case "a":
             keys.a.pressed = true;
@@ -56,7 +56,7 @@ window.addEventListener("keydown", e => {
 window.addEventListener("keyup", e => {
     let key = e.key;
 
-    switch(key) {
+    switch (key) {
         case "ArrowLeft":
         case "a":
             keys.a.pressed = false;
